@@ -14,3 +14,6 @@ fully operational model, given that that would require high quality data that we
 seek to build the grounds of how a potential pricing system would look like. Our approach extracts visual features
 from house photographs by means of a Convolutional Neural network architecture (CNN), and then combines it with
 the houses’ textual information in order to make a guess about the fair price of the property.
+
+Our dataset consists of two main parts: namely, textual features about the property; and images of the properties’ exterior. This data has been obtained from the House Prices and Images - SoCal dataset, which is publicly available in Kaggle (***https://www.kaggle.com/datasets/ted8080/house-prices-and-images-socal***). To begin with, the dataset consists of more than 15 thousand real-estate properties across different cities in the United States. Each entry had 4 textual features: number of bedrooms, number of bathrooms, square footage, and name of the city. Then, in order to better predict the price of each house, the dataset provides images of the houses’ exterior, all of them with size 415x311, which were collected via web scraping.
+
